@@ -25,7 +25,7 @@ SECRET_KEY = 'ja31d&2euvlyr1qc!=@8kc0*m3h30ell100rv2a=*a#z8iy7l*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://limitless-castle-73351.herokuapp.com/']
 
 
 # Application definition
