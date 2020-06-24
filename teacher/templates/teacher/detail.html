@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block content %}
+<h2>Teacher</h2>
+<dl>
+  <dt>First Name</dt>
+  <dd>{{ teacher.firstName}}</dd>
+  <dt>Last Name</dt>
+  <dd>{{ teacher.lastName }}</dd>
+  <dt>E-Mail</dt>
+  <dd>{{ teacher.emailAddress }}</dd>
+  <dt>Phone Number</dt>
+  <dd>{{ teacher.phoneNumber }}</dd>
+  <dt>Room Number</dt>
+  <dd>{{ teacher.roomNumber}}</dd>
+  <dt>Subject Taught</dt>
+  <dd>{{ teacher.subjectsTaught }}</dd>
+</dl>
+{% endblock %}
